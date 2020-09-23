@@ -1,0 +1,5 @@
+29,6,"You are in the Rat King layer, As you step in he roars, causing parts of the cave system to come crashing down, trapping you here *CRASH*"
+29,7,"You can feel the cave shaking, rocks are raining down all around you, you must fight or die!"
+28,8,"The Rat King circles you .... just waiting for the right moment to move in for the kill .... you must fight him ... you draw your revolver"
+29,8,"The Rat King circles you .... just waiting for the right moment to move in for the kill .... you must fight him ... you draw your revolver"
+30,8,"The Rat King circles you .... just waiting for the right moment to move in for the kill .... you must fight him ... you draw your revolver"

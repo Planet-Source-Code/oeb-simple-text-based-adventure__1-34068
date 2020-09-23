@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Dungeon Setup
+
+
+[Package|Dungeon Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Ian McCarthy\Rouge\Package
+
+[Package|Dungeon Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dungeon Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dungeon Setup|Files Found]
+
+[Package|Dungeon Setup|Files Released]
+
+[Package|Dungeon Setup|Missing Dependency Information]
+
+[Package|Dungeon Setup|Out-of-Date Dependency Information]
+
+[Package|Dungeon Setup|Files Added]
+
+[Package|Dungeon Setup|Files Removed]
+
+[Package|Dungeon Setup|Files In Project]
+C:\Ian McCarthy\Rouge\Dungeon.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Dungeon Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Dungeon Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Dungeon Setup|Install Locations]
+C:\Ian McCarthy\Rouge\Dungeon.exe=$(ProgramFiles)\Dungeon
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dungeon Setup|Configure Shared Files]
+Applicable=Yes
+C:\Ian McCarthy\Rouge\Dungeon.exe=No
+
+[Package|Dungeon Setup|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Dungeon : A bad VB Rouge Clone
+
+[Package|Dungeon Setup|IconGroups]
+Group0=Dungeon : A bad VB Rouge Clone
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dungeon Setup|Dungeon : A bad VB Rouge Clone]
+Icon1=Dungeon.EXE
+Title1=Dungeon
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dungeon Setup|Package]
+PackageFolder=C:\Ian McCarthy\Rouge\Package
+ProjectFolder=C:\Ian McCarthy\Rouge
+ServerSideCab=
+File1=C:\Ian McCarthy\Rouge\Package\setup.exe
+File2=C:\Ian McCarthy\Rouge\Package\Setup.Lst
+File3=C:\Ian McCarthy\Rouge\Package\Dungeo1.CAB
+File4=C:\Ian McCarthy\Rouge\Package\Dungeo2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
